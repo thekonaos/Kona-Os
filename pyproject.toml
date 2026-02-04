@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kona-os"
+version = "0.1.0"
+description = "AI-powered Solana token signal routing and kernel health engine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "konaos" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov>=5.0"]
+ai = ["anthropic>=0.40.0"]
+
+[project.urls]
+Homepage = "https://github.com/konaos/Kona-Os"
+
+[project.scripts]
+kona = "kona.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kona*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
