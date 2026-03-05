@@ -1,0 +1,15 @@
+{
+  "name": "kona-os-cli",
+  "version": "0.1.0",
+  "description": "CLI for Kona Os — Solana token kernel analyzer",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0"
+  }
+}
