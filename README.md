@@ -19,6 +19,8 @@ Every Solana token runs a process. Some are kernel-level operations — clean ex
 
 Six process states. Five core metrics. One verdict.
 
+> **CA:** `5gHpyYwyJmFdTTF2hgpjGqo5zwqGA6nz4yreKDbrpump` — ticker: **KNSO**
+
 ---
 
 ## How It Works
